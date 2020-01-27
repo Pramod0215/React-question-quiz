@@ -23,7 +23,7 @@ psycopg2==2.7.4
 Clone the repository
 
 ```
-https://github.com/Pramod0215/Catalog-Product-Management/
+https://github.com/Pramod0215/React-question-quiz
 ```
 
 Setting up your virtual environment:
