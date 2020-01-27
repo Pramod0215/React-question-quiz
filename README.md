@@ -39,7 +39,7 @@ source .env/bin/activate
 ```
 Once the repository is cloned and virtual environment set up, go to the directory where the requirements.txt(Catalogue-management-system/backend/) is and type the following code in your terminal:
 
-# Database (SQlite) : 
+### Database (SQlite) : 
 Using clould datebase which is provided by django.
 
 Create database
@@ -49,4 +49,29 @@ python3 manage.py migrate
 When changeing any field(add new field, Rename, Delate)
 ```
 python3 manage.py makemigrations
+```
+
+For Frontend which is ReactJS,
+Dependencies are: 
+```
+"nodejs":"^v8.10.0",
+"npm":"^6.13.4",
+"react": "^16.12.0",
+"react-dom": "^16.12.0",
+"react-router-dom": "^5.1.2",
+"react-scripts": "0.9.5"
+
+```
+
+Go to '/Cab-allocation-system/frontend' and type the following code in the terminal:
+```
+"sudo apt install nodejs",
+"node --version",
+"npm install", 
+"npm -v",
+
+```
+Then to run the react server, type the code:
+```
+npm start
 ```
