@@ -1,4 +1,5 @@
-# React-question-quiz
+# Question Quiz
+This is multiple choice answer Time and number of atempt shows . This is very simple and useful for preparation interview.
 
 ### Prerequisites
 
@@ -38,5 +39,14 @@ source .env/bin/activate
 ```
 Once the repository is cloned and virtual environment set up, go to the directory where the requirements.txt(Catalogue-management-system/backend/) is and type the following code in your terminal:
 
+# Database (SQlite) : 
+Using clould datebase which is provided by django.
+
+Create database
 ```
-pip install requirements.txt
+python3 manage.py migrate
+```
+When changeing any field(add new field, Rename, Delate)
+```
+python3 manage.py makemigrations
+```
