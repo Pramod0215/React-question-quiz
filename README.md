@@ -63,7 +63,7 @@ Dependencies are:
 
 ```
 
-Go to '/Cab-allocation-system/frontend' and type the following code in the terminal:
+Go to '/React/React-question-quiz/frontend/quizapp'  and type the following code in the terminal:
 ```
 "sudo apt install nodejs",
 "node --version",
