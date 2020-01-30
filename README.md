@@ -71,6 +71,10 @@ Go to '/React/React-question-quiz/frontend/quizapp'  and type the following code
 "npm -v",
 
 ```
+Go to install axios for connect backend and frontend
+```
+npm install
+```
 Then to run the react server, type the code:
 ```
 npm start
